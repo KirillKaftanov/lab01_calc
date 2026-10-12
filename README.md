@@ -61,9 +61,9 @@ lab01_calc/
 Поддерживаются следующие команды:
 
 ```bash
-uv run python -m toolkit calc "2 + 3 * 4"
-uv run python -m toolkit convert 100 --from cm --to m
-uv run python -m toolkit --help
+python -m toolkit calc "2 + 3 * 4"
+python -m toolkit convert 100 --from cm --to m
+python -m toolkit --help
 ```
 
 Результат успешной команды выводится в `stdout`, код завершения процесса — `0`. Сообщения об ошибках выводятся в `stderr`, код завершения — `2`.
